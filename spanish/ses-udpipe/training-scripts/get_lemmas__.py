@@ -4,7 +4,7 @@ import distutils.util
 import re
 import os
 
-##need two arguments, wordform and lemma
+##need a file with a wordform and predicted SES as input
 
 def _apply_lemma_rule(form, lemma_rule):
     if ';' not in lemma_rule:
